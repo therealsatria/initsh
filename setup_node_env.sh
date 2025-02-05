@@ -8,6 +8,9 @@ sudo apt update && sudo apt upgrade -y
 echo "Installing Node.js..."
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt install -y nodejs
+# Install npm
+echo "Installing npm..."
+sudo apt install -y npm
 
 # Verify Node.js and npm installation
 echo "Node.js version:"
