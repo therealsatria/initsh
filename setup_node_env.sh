@@ -42,6 +42,8 @@ tsc -v
 echo "Installing Next.js CLI globally..."
 sudo npm install -g next
 
+cd ../
+
 # Create a new Next.js project with TypeScript support
 echo "Creating a new Next.js project with TypeScript..."
 PROJECT_NAME="my-nextjs-app"
